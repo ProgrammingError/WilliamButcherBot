@@ -41,6 +41,7 @@ Command = config.get("prefix", "prefixes").split()
 MOD_LOAD = config.get("mods", "load_modules").split()
 MOD_NOLOAD = config.get("mods", "noload_modules").split()
 bot_start_time = time.time()
+DB = config.get("admin", "database")
 LYDIA_API = config.get("admin", "lydia_api")
 
 app = Client(":memory:", workers=16)
