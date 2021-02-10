@@ -14,3 +14,4 @@ search_engine_parser
 wget
 cryptography
 googletrans==4.0.0-rc1
+sqlalchemy==1.3.20
