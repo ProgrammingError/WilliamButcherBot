@@ -13,7 +13,7 @@ from pyrogram.types import (
 )
 from wbb.modules.admin import kick, ban
 
-import wbb.sql.warns_sql as sql
+import wbb.modules.sql.warns_sql as sql
 
 no_input_reply = (
     "I don't know who you're talking about, you're going to need to specify a user...!"
